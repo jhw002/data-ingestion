@@ -1,14 +1,8 @@
 import pandas as pd
 
+first_sheet = 'Sheet1'
 practice_file = "/Users/jenniferwang/data-ingestion/PracticeData.xlsx"
 
-print(practice_file)
+df = pd.read_excel(practice_file, sheet_name = first_sheet)
 
-# xl_file = pd.ExcelFile(file_name)
-
-# dfs = {sheet_name: xl_file.parse(sheet_name) for sheet_name in xl_file.sheet_names}
-# dfs = pd.read_excel(file_name, sheet_name=None)
-
-# print("This line will be printed.")
-
-# print(2+2)
+print(df.head())

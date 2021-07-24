@@ -54,9 +54,9 @@ Add pandas as a proper dependency
 https://realpython.com/python-virtual-environments-a-primer/
 https://pypi.org/project/virtualenv/
 
-`python3 -m venv env`
+`python3 -m venv .env`
 
-`source env/bin/activate`
+`source .env/bin/activate`
 
 `python3 -m pip install -r requirements.txt`
 
