@@ -4,6 +4,7 @@ import sqlite3
 
 # global variables
 practice_file = "/Users/jenniferwang/data-ingestion/PracticeData.xlsx"
+practice_csv_file = "/Users/jenniferwang/data-ingestion/formulary-drug-index.txt"
 
 def readSheet(file, sheet='Sheet1'):
     excel = pd.read_excel(practice_file, sheet_name = sheet)
@@ -12,15 +13,17 @@ def readSheet(file, sheet='Sheet1'):
         rows.append(row)
     return rows
 
+def readCSV(file):
+    stuff = pd.read_csv(file, sep="|")
+    print(stuff.head())
+    rows = []
+    for _, row in stuff.iterrows():
+        print(row)
+        # Todo: Inject into database in each row 
+        # rows.append(row)
 
-# Write to sqlite
 
-#    Title   Id   shape
-# 0    Red  1.0  circle
-# 1  Green  2.0  circle
-# 2   Blue  3.0  circle
-# 3    Red  4.0  circle
-# 4  Green  5.0  circle
+# readCSV(practice_csv_file)
 
 con = sqlite3.connect('data-integration.db')
 
