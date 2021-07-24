@@ -62,7 +62,7 @@ https://pypi.org/project/virtualenv/
 
 # Actual Code
 
-# Practice data: "PracticeData.xlsx"
-# Read xlsx
+# Practice data: "PracticeData.xlsx" ✅
+# Read xlsx ✅
 # write to Sqlite
 # sql gui 
