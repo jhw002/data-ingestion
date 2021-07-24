@@ -10,11 +10,34 @@ Markdown: https://www.markdownguide.org/cheat-sheet/
 
 ## Git
 `git status` : what files are staged / unstaged
-`git branch -l` list the local branchs
+
+`git branch -l` list the local branches
+
 `gid add --all` : adds all files to be commited (not the actual commit)
+
 `git commit -m "Cool Message"` : Actually commit
+
 `git diff` : Whats different from staged and current
+
 `git diff --cached` : Whats differrent including what is staged
+
+`git log` : list commits
+
+`git push` : push up commits to remote branch
+
+`git reset --hard` : resets files to last commit
+
+`git clean -df`: remove all unversioned files (great for removing temporary files)
+
+## Visual Studio Code
+
+`⌘ + shift + p` : omniwindow
+
+`⌘ + p` : jump to file
+
+## TODO
+
+Add pandas as a proper dependency 
 
 ## Getting Set up
 
