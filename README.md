@@ -8,6 +8,8 @@ Markdown: https://www.markdownguide.org/cheat-sheet/
 
 `man X` where X is the thing you want more info on
 
+`history` : list all commands you have run so far
+
 ## Git
 `git status` : what files are staged / unstaged
 
@@ -35,6 +37,11 @@ Markdown: https://www.markdownguide.org/cheat-sheet/
 
 `⌘ + p` : jump to file
 
+## Pip  / dependancy managment
+
+1. `pip install pandas`
+2. `pip freeze > requirements.txt`
+
 ## TODO
 
 Add pandas as a proper dependency 
@@ -48,6 +55,8 @@ https://pypi.org/project/virtualenv/
 `python3 -m venv env`
 
 `source env/bin/activate`
+
+`python3 -m pip install -r requirements.txt`
 
 # Actual Code
 
