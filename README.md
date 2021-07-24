@@ -3,6 +3,8 @@
 ## Misc
 Markdown: https://www.markdownguide.org/cheat-sheet/
 
+`python3 script.py` Run the code from command line
+
 ## ClI
 `--help` most cli programs have this option
 

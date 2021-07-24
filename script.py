@@ -1,4 +1,4 @@
-# import pandas as pd
+import pandas as pd
 
 practice_file = "/Users/jenniferwang/data-ingestion/PracticeData.xlsx"
 
